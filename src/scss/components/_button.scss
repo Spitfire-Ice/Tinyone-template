@@ -12,4 +12,49 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 22px;
+  font-family: "Source Sans Pro";
+  color: rgb(1, 1, 1);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.091;
 }
+.header__button:hover {
+  transform: scale(1.1,1.1);
+  cursor: pointer;
+}
+//============================================
+
+.scroll-arrow {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  line-height: 0.75;
+  margin-bottom: 50px;
+  color: #000000;
+}
+.scroll-arrow:hover {
+  transform: scale(1.1,1.1);
+}
+
+//=============================================
+
+.pricing__button {
+  width: 150px;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: "Source Sans Pro";
+  color: rgb(1, 1, 1);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+.pricing__button:hover {
+  transform: scale(1.1,1.1);
+}
+
