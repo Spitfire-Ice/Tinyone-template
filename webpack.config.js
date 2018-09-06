@@ -105,12 +105,12 @@ module.exports = {
     new ExtractSCSS({
       filename: 'css/[name].[hash].css',
     }),
-    new CopyWebpackPlugin([
-      {
-        from: path.join(__dirname, 'src', 'img/favicon'),
-        to: 'img/favicon',
-      },
-    ]),
+    // new CopyWebpackPlugin([
+    //   {
+    //     from: path.join(__dirname, 'src', 'img/favicon'),
+    //     to: 'img/favicon',
+    //   },
+    // ]),
     new UglifyJsPlugin({
       uglifyOptions: {
         ecma: 8,
