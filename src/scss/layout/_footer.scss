@@ -1,3 +1,47 @@
 /*------------------------------------------------------------------
   	[Footer]
 ------------------------------------------------------------------*/
+footer {
+  height: 769px;
+  background-color: #000000;
+}
+.footer {
+  border: 1px solid red;
+  h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Source Sans Pro";
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 100px;
+  }
+  p {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Source Sans Pro";
+    color: rgb(137, 137, 137);
+    line-height: 1.2;
+  }
+}
+.subs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  input:nth-child(1) {
+    width: 280px;
+  }
+  input:nth-child(2) {
+    width: 130px;
+    margin-top: 17px;
+    height: 58px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #999999;
+  }
+}
