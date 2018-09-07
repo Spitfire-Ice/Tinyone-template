@@ -1,0 +1,52 @@
+.works {
+  h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Source Sans Pro";
+    color: rgb(1, 1, 1);
+    font-weight: bold;
+    line-height: 1;
+  }
+  p {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Source Sans Pro";
+    color: rgb(137, 137, 137);
+    line-height: 1.2;
+  }
+}
+.works__gallery {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  .works__gallery-item {
+    margin: 10px;
+    width: 220px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .content {
+      article {
+        font-size: 22px;
+        font-family: "Source Sans Pro";
+        color: rgb(1, 1, 1);
+        font-weight: bold;
+        line-height: 1.091;
+        text-align: center;
+        width: 100%;
+      }
+      p {
+        margin-top: 5px;
+      }
+    }
+  }
+}
+

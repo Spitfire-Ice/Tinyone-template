@@ -11,7 +11,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.[hash].js',
-    publicPath: '/',
+    publicPath: './',
   },
   module: {
     rules: [
@@ -69,7 +69,7 @@ module.exports = {
             options: {
                 outputPath: 'img/',
                 name: '[name].[ext]',
-                publicPath: '../img/',
+                publicPath: './img/',
                 useRelativePaths: true
             },
           },
